@@ -7,14 +7,19 @@ galaxy_info:
   description: Security software installation and configuration.
   company: "Libert XYZ"
   license: "MIT"
-  min_ansible_version: 2.4
+  min_ansible_version: 2.8
   platforms:
-    - name: EL
+    - name: Centos
       versions:
-        - all
+        - 7
+        - 8
     - name: Ubuntu
       versions:
-        - all
+        - 18.04
+        - 20.04
+    - name: AmazonLinux 2
+      versions:
+        - 2
   galaxy_tags:
     - system
     - security
