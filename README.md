@@ -71,6 +71,7 @@ None.
 ## Example Playbook
 
     - hosts: servers
+      become: true
       vars_files:
         - vars/main.yml
       roles:

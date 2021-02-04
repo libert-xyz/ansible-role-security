@@ -5,7 +5,7 @@ driver:
   name: docker
 platforms:
   - name: instance
-    image: "libertxyz/docker-ansible-${MOLECULE_DISTRO}:latest"
+    image: "libertxyz/docker-ansible-${MOLECULE_DISTRO:-centos8}:latest"
     command: /sbin/init
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
