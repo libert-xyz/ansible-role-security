@@ -10,7 +10,7 @@
 
 - name: Install security updates (RedHat)
   yum:
-      name: '*'
-      security: yes
-      state: latest
+    name: '*'
+    security: yes
+    state: latest
   when: ansible_os_family == 'RedHat'

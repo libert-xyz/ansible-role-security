@@ -1,6 +1,6 @@
 # Ansible Role: Security
 
-[![CI](https://github.com/libertxyz/ansible-role-security/workflows/CI/badge.svg?event=push)](https://github.com/libertxyz/ansible-role-security/actions?query=workflow%3ACI)
+[![CI](https://github.com/libert-xyz/ansible-role-security/workflows/CI/badge.svg?event=push)](https://github.com/libert-xyz/ansible-role-security/actions?query=workflow%3ACI)
 
 
 This is a fork from the Ansible role https://github.com/geerlingguy/ansible-role-security
