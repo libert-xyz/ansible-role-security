@@ -38,4 +38,4 @@
   tasks:
     - name: "Include role"
       include_role:
-        name: "ansible-role-security"
+        name: "libert_xyz.security"
