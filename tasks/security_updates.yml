@@ -1,0 +1,16 @@
+---
+
+- name: Update apt cache and upgrade (Debian)
+  apt:
+    update_cache: yes
+    force_apt_get: yes
+    upgrade: yes
+    cache_valid_time: 3600
+  when: ansible_os_family == 'Debian'
+
+- name: Install security updates (RedHat)
+  yum:
+      name: '*'
+      security: yes
+      state: latest
+  when: ansible_os_family == 'RedHat'
