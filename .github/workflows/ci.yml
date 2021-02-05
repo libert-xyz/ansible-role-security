@@ -10,7 +10,7 @@ name: CI
 
 defaults:
   run:
-    working-directory: 'libert-xyz.security'
+    working-directory: 'libert_xyz.security'
 
 jobs:
 
@@ -21,7 +21,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'libert-xyz.security'
+          path: 'libert_xyz.security'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
@@ -52,7 +52,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'libert-xyz.security'
+          path: 'libert_xyz.security'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
