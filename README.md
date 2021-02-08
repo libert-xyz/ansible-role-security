@@ -75,7 +75,7 @@ None.
       vars_files:
         - vars/main.yml
       roles:
-        - libertxyz.security
+        - libert_xyz.security
 
 *Inside `vars/main.yml`*:
 
